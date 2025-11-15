@@ -33,55 +33,6 @@ Frontend–Backend Structure
 
 Organized folders for easy migration to any backend (Django, Node.js, ASP.NET, etc.)
 
-📁 Project Structure
-library/
-│
-├── backend/
-│   └── placeholder for future API / database / controllers
-│
-├── frontend/
-│   └── placeholder for advanced UI components
-│
-├── addbook/
-│   ├── addbook.html
-│   ├── style.css
-│   └── app.js
-│
-├── editbook/
-│   ├── editbook.html
-│   ├── style.css
-│   └── app.js
-│
-├── home/
-│   ├── home.html
-│   ├── style.css
-│   └── app.js
-│
-├── login/
-│   ├── login.html
-│   ├── style.css
-│   └── app.js
-│
-├── signup/
-│   ├── signup.html
-│   ├── style.css
-│   └── app.js
-│
-└── viewbooks/
-    ├── viewbooks.html
-    ├── style.css
-    └── app.js
-
-🛠️ Technologies Used
-
-HTML5 — page structure
-
-CSS3 — styling and layout
-
-JavaScript (Vanilla JS) — form handling, UI logic
-
-Modular folder design — ready for future backend logic
-
 📚 How It Works
 
 The user signs up or logs in through the login and signup pages.
