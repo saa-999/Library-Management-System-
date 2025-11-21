@@ -1,97 +1,56 @@
-📘 Library Management System
+Library Management System
 
-A lightweight and beginner-friendly Library Management System built with HTML, CSS, JavaScript, and a simple backend structure.
-This project demonstrates user management, book management, and core CRUD functionality through a clean and modular folder structure.
+This is a simple and lightweight Library Management System built using HTML, CSS, and JavaScript, with a basic backend-friendly structure. The goal of this project is to demonstrate user management, book management, and core CRUD operations in a clean and organized way.
 
-🚀 Features
+Features
+	1.	User Management
 
-User Authentication
+	•	Sign up
+	•	Login
+	•	Session validation (frontend placeholder logic)
 
-Sign up
+	2.	Book Management
 
-Login
+	•	Add a new book
+	•	Edit book details
+	•	Delete a book (UI only — backend can be connected later)
+	•	View all books in a structured table layout
 
-Session validation (frontend-based placeholder logic)
+	3.	Simple UI
 
-Book Management
+	•	Separate HTML, CSS, and JS files for easy updates
+	•	A clean base layout that can be expanded or integrated with frameworks
 
-Add a new book
+	4.	Backend-Ready Structure
 
-Edit existing book
+	•	Organized folders that make it easy to integrate with Django, Node.js, ASP.NET, or any backend framework
 
-Delete book (UI only — backend can be attached)
+How the Project Works
 
-View all books in a clean table layout
+The user starts by signing up or logging in.
+After authentication, they are redirected to the home.html page.
+From there, they can add books, view the book list, or edit book information.
 
-Clean UI
+All pages follow the same structure:
+	•	HTML file
+	•	CSS file
+	•	JavaScript file
+This approach makes the project easy to maintain and extend.
 
-Separate HTML, CSS, and JS files for easy updates
+Future Improvements
+	•	Connect the system to a backend using Django or Node.js
+	•	Add a database such as MySQL, SQLite, or MongoDB
+	•	Add admin roles and permissions
+	•	Implement real authentication using JWT
+	•	Add search and filtering features
+	•	Add book categories
+	•	Support dark mode
+	•	Improve and modernize the UI
 
-Simple layout ready for future styling or frameworks
+Screenshots
 
-Frontend–Backend Structure
+You can add images later inside the images folder, for example:
+Why This Project?
 
-Organized folders for easy migration to any backend (Django, Node.js, ASP.NET, etc.)
-
-📚 How It Works
-
-The user signs up or logs in through the login and signup pages.
-
-After authentication, the user is redirected to home.html.
-
-From the home page, they can:
-
-add new books
-
-view the book list
-
-edit book details
-
-All pages follow a clean pattern:
-
-page.html
-
-style.css
-
-app.js
-
-This makes the project super easy to extend or connect to any backend.
-
-🎯 Future Improvements
-
-Here are some cool ideas you can add later:
-
-Connect backend using Django or Node.js
-
-Add database support (MySQL, SQLite, MongoDB)
-
-Add admin roles
-
-Add real authentication & JWT tokens
-
-Add searching/filtering books
-
-Add book categories
-
-Dark mode UI 🌙
-
-📸 Screenshots
-
-Add images here later using:
-
-![Home Page](images/home.png)
-
-🎉 Why This Project?
-
-This project is perfect for beginners who want to:
-
-Learn frontend fundamentals
-
-Understand modular project design
-
-Build CRUD systems
-
-Prepare for backend integration
-
-Add a clean project to their GitHub portfolio
+This project is great for beginners who want to learn frontend fundamentals, understand project structure, build CRUD systems, or prepare for backend integration. It also makes a solid addition to a GitHub portfolio.
 
